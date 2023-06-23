@@ -1,71 +1,49 @@
-# D.A.R.T
-Direct Automotive Reciver & Transmitter
+# SugarTank - Vehicle Sabotage
 
-![D.A.R.T](https://media.discordapp.net/attachments/982855421779922944/1113885039541882970/64756725cd2c8.webp)
-
-D.A.R.T is a resource for FiveM that provides driver assistance and vehicle tracking functionality for emergency vehicles. It allows players to mark and track nearby vehicles, enhancing their ability to respond to emergencies effectively. The resource includes server-side and client-side scripts, along with a configuration file to customize various options.
+SugarTank is a FiveM resource that allows players to sabotage vehicles by pouring sugar into the gas tank. This action disables the vehicle's engine and prevents it from starting.
 
 ## Features
 
-- Track nearby vehicles from an emergency vehicle
+- Players walk to a vehicle and press K to sabotage the nearest vehicle.
 
-- Marked vehicle location updates in real-time on the map
+- Sabotaging a vehicle plays a gardening water animation.
 
-- Cooldown system to prevent spamming the tracking feature
+- The engine of the sabotaged vehicle is damaged and will fail shortly.
 
-- Customizable blip settings
+## Getting Started
 
-## Roadmap
+### Prerequisites
 
-Here's a roadmap of the planned features and improvements for D.A.R.T:
+- [FiveM](https://fivem.net/) server with appropriate permissions to install resources.
 
-- [x] Implement basic vehicle tracking functionality
+### Installation
 
-- [x] Add cooldown system to prevent spamming
+1. Clone or download this repository.
 
-- [x] Customize blip settings
+2. Rename the folder to `sugartank` (optional).
 
-- [ ] Add particle effect to indicate marked vehicles
+3. Place the `sugartank` folder in the `resources` directory of your FiveM server.
 
-- [ ] Implement sound effects for tracking events
+4. Add the following line to your `server.cfg` file:
 
-- [ ] Create a job bridge for integration with job systems (e.g., ESX, vRP)
+`ensure SugarTank`
 
-- [ ] Add additional configurable options for more customization
+### Usage
 
-- [ ] Implement a command to toggle tracking on/off
+- Players walk to a vehicle and press K to sabotage the nearest vehicle.
 
-- [ ] Add support for marking multiple vehicles simultaneously
+- Sabotaging a vehicle plays a gardening water animation on the player.
 
-- [ ] Bug fixes and optimizations
+- The engine of the sabotaged vehicle is damaged and will fail shortly.
 
-## Installation
+- There is a configurable Cool-Down
 
-1. Download the latest release of D.A.R.T.
+## Credits
 
-2. Extract the contents of the ZIP file into your FiveM server resources folder.
-
-3. Add `start dart` to your server.cfg file.
-
-## Configuration
-
-You can customize the behavior of D.A.R.T by modifying the options in the `config.lua` file. Here are the configurable options:
-
-- `TrackingDuration`: The duration (in seconds) for which a vehicle is tracked.
-
-- `CooldownDuration`: The duration (in seconds) of the cooldown period between tracking attempts.
-
-- `BlipSprite`: The sprite ID of the blip displayed on the map for marked vehicles.
-
-- `BlipColor`: The color ID of the blip displayed on the map for marked vehicles.
-
-- `BlipDisplay`: The display mode of the blip on the map for marked vehicles.
-
-## Usage
-
-To start tracking a nearby vehicle, enter an emergency vehicle and use the `/firedart` command. The nearest vehicle will be marked with a blip on the map, indicating its location. The blip will be visible to all players on the server. There is a cooldown period between each tracking attempt to prevent spamming.
+- Developed by [TheStoicBear](https://github.com/TheStoicBear)
 
 ## License
 
-D.A.R.T is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This resource is licensed under the [MIT License](LICENSE).
+
 
