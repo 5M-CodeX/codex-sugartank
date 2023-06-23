@@ -1,12 +1,10 @@
-# SugarTank - Vehicle Sabotage
+# Code X SugarTank - Vehicle Sabotage
 
 SugarTank is a FiveM resource that allows players to sabotage vehicles by pouring sugar into the gas tank. This action disables the vehicle's engine and prevents it from starting.
 
 ## Features
 
 - Players walk to a vehicle and press K to sabotage the nearest vehicle.
-
-- Sabotaging a vehicle plays a gardening water animation.
 
 - The engine of the sabotaged vehicle is damaged and will fail shortly.
 
@@ -20,9 +18,9 @@ SugarTank is a FiveM resource that allows players to sabotage vehicles by pourin
 
 1. Clone or download this repository.
 
-2. Rename the folder to `sugartank` (optional).
+2. Rename the folder to `codex-sugartank` (optional).
 
-3. Place the `sugartank` folder in the `resources` directory of your FiveM server.
+3. Place the `codex-sugartank` folder in the `resources` directory of your FiveM server.
 
 4. Add the following line to your `server.cfg` file:
 
@@ -31,8 +29,6 @@ SugarTank is a FiveM resource that allows players to sabotage vehicles by pourin
 ### Usage
 
 - Players walk to a vehicle and press K to sabotage the nearest vehicle.
-
-- Sabotaging a vehicle plays a gardening water animation on the player.
 
 - The engine of the sabotaged vehicle is damaged and will fail shortly.
 
