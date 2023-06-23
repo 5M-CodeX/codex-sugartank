@@ -88,7 +88,7 @@ Citizen.CreateThread(function()
                     AddTextComponentString("Press ~INPUT_CONTEXT~ to put sugar in the tank")
                     DisplayHelpTextFromStringLabel(0, 0, 1, -1)
 
-                    if IsControlJustPressed(0, 38) then -- "E" key
+                    if IsControlJustPressed(0, 311) then -- "E" key
                         if not playerCooldowns[PlayerId()] then
                             sabotageVehicle(nearbyVehicle)
                             startCooldown(PlayerId())
