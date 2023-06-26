@@ -36,8 +36,8 @@ end
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
-        local playerPed = PlayerPedId()
         local playerId = PlayerId()
+        local playerPed = GetPlayerPed(playerId)
 
         if not isPlayerInVehicle(playerPed) and IsControlJustPressed(0, 311) then -- "K" key
             local vehicle = nil
