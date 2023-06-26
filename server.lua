@@ -75,7 +75,8 @@ end)
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
-        local playerPed = PlayerPedId()
+        local playerId = PlayerId()
+        local playerPed = GetPlayerPed(playerId)
         local coords = GetEntityCoords(playerPed)
 
         if not isPlayerInVehicle(playerPed) then
