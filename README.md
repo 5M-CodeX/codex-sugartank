@@ -37,6 +37,7 @@ SugarTank is a FiveM resource that allows players to sabotage vehicles by pourin
 ## Credits
 
 - Developed by [TheStoicBear](https://github.com/TheStoicBear)
+- Developed by [Zenith](https://github.com/joshllan26)
 
 ## License
 
