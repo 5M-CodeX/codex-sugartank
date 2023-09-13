@@ -1,4 +1,5 @@
 # Code X SugarTank - Vehicle Sabotage
+![codex-suagrtank](https://github.com/5M-CodeX/codex-sugartank/assets/112611821/c2eef365-d288-412e-aaaa-ce77224902b2)
 
 SugarTank is a FiveM resource that allows players to sabotage vehicles by pouring sugar into the gas tank. This action disables the vehicle's engine and prevents it from starting.
 
